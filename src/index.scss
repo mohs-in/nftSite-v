@@ -1,0 +1,124 @@
+body{
+  font-size: 16px;
+  color: #2b283a;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.header,
+.sectionOne img {
+  width: 100%;
+}
+
+.header,
+.sectionTwo {
+  background-color: #5f29a3;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#header--h1,
+#header--h3 {
+  margin: 0;
+}
+
+#header--h1 {
+  color: whitesmoke;    
+  font-size: 2.25em;
+}
+
+#header--h3,
+.sectionOne h2 {
+  font-size: 1.75em;
+}
+
+#header--h3 {
+  color: #d0aaff;
+  
+}
+
+.sectionTwo,
+.container {
+  padding: 45px 0;
+}
+
+.sectionOne h2 {
+  color: #2b283a;
+}
+
+#p-link {
+  text-decoration: dotted underline;
+  color: #ef5839;
+}
+
+#p-link:hover, 
+#p-link:active, 
+#p-link:focus {
+  color: #2b283a;
+}
+
+.btn {
+  padding: 10px 19px;
+  border-radius: 4.6px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 3px;
+}
+
+.btn-dark {
+  background-color: #5f29a3;
+  color: whitesmoke;
+}
+
+.btn-mid {
+  background-color: #f0e0ff;
+  color: #5f29a3;
+}
+
+.btn-light {
+  background-color: whitesmoke;
+  color: #5f29a3;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  color: #2b283a;
+  background-color: #f3e885;
+}
+
+.sectionTwo {
+  color: whitesmoke;
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.feature-img {
+  width: 48.8%;
+  border-radius: 5px;
+}
+
+.main-img {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto 32px;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  color: #5f29a3;
+}
+
+p {
+  line-height: 24px;
+}
