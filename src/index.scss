@@ -17,7 +17,7 @@ body{
 
 .container {
   width: 90%;
-  max-width: 800px;
+  max-width: 50rem;
   margin: 0 auto;
 }
 
@@ -28,12 +28,12 @@ body{
 
 #header--h1 {
   color: whitesmoke;    
-  font-size: 2.25em;
+  font-size: 2.25rem;
 }
 
 #header--h3,
 .sectionOne h2 {
-  font-size: 1.75em;
+  font-size: 1.75rem;
 }
 
 #header--h3 {
@@ -43,7 +43,7 @@ body{
 
 .sectionTwo,
 .container {
-  padding: 45px 0;
+  padding: 2rem 0;
 }
 
 .sectionOne h2 {
@@ -62,12 +62,12 @@ body{
 }
 
 .btn {
-  padding: 10px 19px;
-  border-radius: 4.6px;
+  padding: 0.5rem 1rem;
+  border-radius: 0.288rem;
   font-weight: 500;
   text-decoration: none;
   display: inline-block;
-  margin: 10px 3px;
+  margin: 0.625rem 0.188rem;
 }
 
 .btn-dark {
@@ -99,18 +99,18 @@ body{
 .img-container {
   display: flex;
   justify-content: space-between;
-  margin: 15px;
+  margin: 0.94em;
 }
 
 .feature-img {
   width: 48.8%;
-  border-radius: 5px;
+  border-radius: 0.312rem;
 }
 
 .main-img {
   width: 100%;
-  max-width: 640px;
-  margin: 0 auto 32px;
+  max-width: 40rem;
+  margin: 0 auto 2rem;
   display: block;
 }
 
@@ -120,5 +120,22 @@ footer {
 }
 
 p {
-  line-height: 24px;
+  line-height: 150%;
+}
+
+@media (max-width:480px) {
+  .img-container {
+    flex-direction: column;
+  }
+
+  .feature-img {
+    width: 90%;
+    border-radius: 0.5rem;
+    margin: 0.5em;
+  }
+
+  .btn {
+    display: block;
+    text-align: center;
+  }
 }
