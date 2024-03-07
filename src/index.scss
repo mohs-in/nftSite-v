@@ -123,6 +123,7 @@ p {
   line-height: 150%;
 }
 
+//nav and button changes for mobile devices
 @media (max-width:480px) {
   .img-container {
     flex-direction: column;
@@ -138,4 +139,60 @@ p {
     display: block;
     text-align: center;
   }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0.5rem;
+    list-style-type: none;
+    font-size: 1.125rem;
+  }
+  
+  ul li {
+    padding: 1rem 0.5rem;
+  }
+  
+  li:not(:last-child) {
+    border-bottom: 1px dotted #a190b6;
+  }
+}
+
+// nav changes for non-mobile devices
+@media (min-width:480px) {
+
+  #h-ctnr {
+    width: 100%;
+    max-width: 95%;
+    display: flex;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  
+  nav {
+    margin-left: auto;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0.5rem;
+    list-style-type: none;
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  ul li {
+    padding: 1.5rem 1.5rem;
+    font-weight: 500;
+  }
+
 }
