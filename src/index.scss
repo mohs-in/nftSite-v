@@ -155,7 +155,7 @@ p {
   ul li {
     padding: 1rem 0.5rem;
   }
-  
+
   li:not(:last-child) {
     border-bottom: 1px dotted #a190b6;
   }
@@ -195,4 +195,16 @@ p {
     font-weight: 500;
   }
 
+}
+
+@media (max-width:786px) and (min-width:481px){
+  ul {
+    flex-direction: column;
+  }
+  ul li {
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 0.5rem;
+    padding-bottom: 0.8rem;
+  }
 }
